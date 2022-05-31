@@ -1,0 +1,16 @@
+  {"intents": [
+    {"tag": "Programming requirements",
+    "patterns": ["What GPU to use for Python?", "What programming language should I know before moving onto Python", "To make sure all of the dependencies are compatible with Python, what should I do?", "What does it take to program in Python?"], 
+    "responses": ["GeForce GTX 1050Ti, as it takes only 0.36 seconds to improve the performance than other GPU's", "Make sure that you download the latest stable version of Python", "Knowing what the term 'object-oriented' means, but the objects that Python uses is not exclusive to every variable"],
+    "context_set": ""
+    },
+    {"tag": "Top 3 Python IDEs",
+     "patterns": ["Can you tell me what the first Python IDE is and why it is benefitial?", "What is the next top Python IDE and what is the benefits?", "What is the last Python IDE?"],
+     "responses": ["IDLE (Integrated Development and Learning Environment) is a default editor that accompanies Python and this is benefitial for the user, as it is an interactive interpreter with syntax highlighting, error and i/o messages", "The second best is PyCharm that supports JavaScript, CSS and TypeScript as well as Python. Also this IDE allows the user to quick and safely refactor code", "Finally, Visual Studio Code is an open-source software and can be used for Python development. As well as all of the previous features, this software has a Git integration; so that it is easy to upload a project quickly to this IDE"]
+  },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can you repeat that again?", "Would you like to know what GPU is best for Python?", "Not sure I understand you!"]
+    }
+  ]
+}
